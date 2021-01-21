@@ -1,0 +1,16 @@
+@import "./partials/mixins";
+
+
+
+
+body {
+    @include for-tablet-landscape-up{
+        background-color: yellow;
+    }
+    @include for-tablet-portrait-up {
+        background-color: red;
+    }
+    @include for-phone-only {
+        background-color: blue;
+    }
+}
